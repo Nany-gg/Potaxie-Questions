@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Potaxie Questions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Pantalla de carga -->
+  <div id="loading-screen">
+    <img id="loading-image" src="" alt="Cargando...">
+    <p id="loading-text">Cargando...</p>
+  </div>
+
+  <!-- Cuestionario -->
+  <div id="quiz-container" style="display: none;">
+    <h1>¿Cómo te llamas?</h1>
+    <input type="text" id="user-name" placeholder="Escribe tu nombre acá puchaina" />
+    <button id="start-btn" onclick="startQuiz()">Iniciar Cuestionario</button>
+
+    <div id="question-container"></div>
+    <div id="buttons-container">
+      <button id="prev-btn" onclick="prevQuestion()">Pregunta Anterior</button>
+      <button id="next-btn" onclick="nextQuestion()">Siguiente Pregunta</button>
+    </div>
+  </div>
+
+  <!-- Resultados -->
+  <div id="results" style="display: none;">
+    <h2>¡Tu calificación es: <span id="final-score"></span></h2>
+    <p id="result-message"></p>
+    <p>Hecho y dirigido por: Néstor.<br> Si puchaina, aún que no me creas✨</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
