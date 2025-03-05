@@ -1,17 +1,17 @@
 // script.js
 
 const questions = [
-  { question 1: "¿Te has enamorado de algún Fife?", options: ["Si", "No"], correct: "No", points: 1 },
-  { question 2: "Si respondiste si, ¿Cuál es su nombre?", type: "text", correct: "", points: 0 },
-  { question 3: "¿Te crees potaxie?", options: ["Si", "No"], correct: "Si", points: 1 },
-  { question 4: "¿Acaso alguna vez has hecho algo hipócrita?", options: ["Si", "No"], correct: "Si", points: 2 },
-  { question 5: "¿Quisieras revivir una relación del pasado?", options: ["Si", "Quizás", "No"], correct: "No", points: 2, extra: "Quizás" },
-  { question 6: "¿Quién es tu mejor amiga?", type: "text", correct: "", points: 0 },
-  { question 7: "¿Escuchas a Sabrina Carpenter?", options: ["Si", "No", "No se quien es ella"], correct: "Si", points: 1 },
-  { question 8: "¿Escuchas remixs potaxies?", options: ["Si", "No"], correct: "Si", points: 1 },
-  { question 9: "¿Eres Fife?", options: ["Si", "No"], correct: "No", points: 1 },
-  { question 10: "¿Estás enamorado de alguien?", options: ["Si", "No"], correct: "Si", points: 1 },
-  { question 11: "¿De que Fife?", type: "text", correct: "", points: 0 },
+  { question: "¿Te has enamorado de algún Fife?", options: ["Si", "No"], correct: "No", points: 1 },
+  { question: "Si respondiste si, ¿Cuál es su nombre?", type: "text", correct: "", points: 0 },
+  { question: "¿Te crees potaxie?", options: ["Si", "No"], correct: "Si", points: 1 },
+  { question: "¿Acaso alguna vez has hecho algo hipócrita?", options: ["Si", "No"], correct: "Si", points: 2 },
+  { question: "¿Quisieras revivir una relación del pasado?", options: ["Si", "Quizás", "No"], correct: "No", points: 2, extra: "Quizás" },
+  { question: "¿Quién es tu mejor amiga?", type: "text", correct: "", points: 0 },
+  { question: "¿Escuchas a Sabrina Carpenter?", options: ["Si", "No", "No se quien es ella"], correct: "Si", points: 1 },
+  { question: "¿Escuchas remixs potaxies?", options: ["Si", "No"], correct: "Si", points: 1 },
+  { question: "¿Eres Fife?", options: ["Si", "No"], correct: "No", points: 1 },
+  { question: "¿Estás enamorado de alguien?", options: ["Si", "No"], correct: "Si", points: 1 },
+  { question: "¿De que Fife?", type: "text", correct: "", points: 0 },
 ];
 
 let currentQuestion = 0;
