@@ -112,3 +112,9 @@ window.onload = () => {
   document.getElementById("loading-image").src = randomImage;
   document.getElementById("loading-text").innerText = randomText;
 };
+
+// Ocultar pantalla de carga y mostrar cuestionario después de 3 segundos
+setTimeout(() => {
+  document.getElementById("loading-screen").style.display = "none";
+  document.getElementById("quiz-container").style.display = "block";
+}, 3000); // 3 segundos
