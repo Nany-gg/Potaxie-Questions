@@ -95,7 +95,7 @@ window.onload = () => {
   const images = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdDPs9JJGvogbK8HjESOpj2Cit7FdsIY89-4vphb6SlQ&s",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-tEpF4Ux9HUjv-ZPt8x6ZGqDbqZOnCjbzkCCN5Tv0J05UWh9jZyxtxR4&s=10",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROE5u6CjLI-tDyNHAph3ju3AnRnqjJvNLcvztxESWOp4kxK9RGJn7r-Yk&s=10"
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTga11M08iXjkA9LhE6SoPSDigtI3-5HET2we1ALMHn3Me6ERG-l_No00rR&s=10"
   ];
   const texts = [
     "...Para llegar al exito, no te debes rendir...",
