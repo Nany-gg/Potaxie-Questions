@@ -84,12 +84,10 @@ function showResults() {
 
   document.getElementById("final-score").innerText = totalScore;
   document.getElementById("result-message").innerText =
-  document.getElementById("user-name") =
-    totalScore >= 8 ? "Eres potaxie" : "No eres potaxie" : user-name;
+    totalScore >= 8 ? "Eres potaxie" : "No eres potaxie";
 
   document.getElementById("quiz-container").style.display = "none";
   document.getElementById("results").style.display = "block";
-  document.getElementById("user-name").style.display = "none";
 }
 
 // Cargar pantalla de carga aleatoria
